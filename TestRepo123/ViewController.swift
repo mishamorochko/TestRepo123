@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let label = UILabel()
+        label.text = "Hello, world!"
+
+        view.addSubview(label)
+        label.frame = view.frame
     }
 
 
